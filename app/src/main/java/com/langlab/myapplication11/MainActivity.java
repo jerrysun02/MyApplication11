@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.d("res=", "test.....");
         Log.d("res=","230 res="+find(230) / 2);
         Log.d("res=","6000 res="+find(6000) / 2);
         Log.d("res=","20000 res="+find(20000) / 2);
